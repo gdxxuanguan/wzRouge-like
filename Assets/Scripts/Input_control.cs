@@ -41,17 +41,13 @@ namespace zhb
             else
             {
                 animator.SetInteger("isMoving", 1);
+                animator.SetFloat("x", move.x);
+                animator.SetFloat("y", move.y);
             }
-            
-            
-            
-            Debug.Log("up&down:" + move.y+"   "+"left&right:"+move.x);
-            animator.SetFloat("x", move.x);
-            animator.SetFloat("y", move.y);
             rd.velocity = moveSpeed * move;
-            
-
         }
+
+        
     }
 
 }
