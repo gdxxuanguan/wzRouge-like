@@ -30,10 +30,11 @@ namespace zhb
         {
             Vector2 oritation = (playerTransform.position-transform.position).normalized;
             float distance = Vector2.Distance(playerTransform.position, transform.position);
-            if (distance < attackRange) //不需要移动
+            if (distance < attackRange) //进入攻击范围,不需要移动
             {
                 animator.SetBool("isMoving", false);
                 rd.velocity = Vector2.zero;
+                attackMode();
                 return;
             }
             //需要移动
@@ -44,6 +45,9 @@ namespace zhb
 
                  
         }
+        public virtual void attackMode() { }
+
+        public virtual void escAttackMode() { }
 
     }
 

@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\dwarf.cs" />
     <Compile Include="Assets\Scripts\throwWeapon.cs" />
     <Compile Include="Assets\Scripts\bullet1.cs" />
+    <Compile Include="Assets\bomb.cs" />
     <Compile Include="Assets\Scripts\enemy.cs" />
   </ItemGroup>
   <ItemGroup>
