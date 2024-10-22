@@ -1,26 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using zhb;
 
 namespace zhb
 {
-    public class bomb : bullet
+    public class bullet : MonoBehaviour
     {
-        private Animator animator;
-        private float explosionRadius = 0.7f; // 爆炸半径
-        private float damage = 30; // 伤害值
 
-        public float ExplosionRadius { get => explosionRadius; set => explosionRadius = value; }
+        private Animator animator;
+        public float influenceRadius; // 爆炸半径
+        public float damage; // 伤害值
+        public float animateTime; //多长时间后播放爆炸动画
+        public float destroyTime;//多长时间后消失
+
+        public float InfluenceRadius { get => influenceRadius; set => influenceRadius = value; }
 
         // Start is called before the first frame update
         void Start()
         {
             animator = GetComponent<Animator>();
-            Destroy(gameObject, 2f);
-            Invoke(nameof(explode), 1f);
-            
-            
-            
+            Destroy(gameObject, destroyTime);
+            Invoke(nameof(explode), animateTime);
         }
 
         // Update is called once per frame
@@ -31,12 +32,11 @@ namespace zhb
 
         void explode()
         {
-
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             animator.SetBool("exploable", true);
-           
+
             // 在炸弹当前位置创建一个圆形，检测在该圆形范围内的所有2D碰撞体
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, explosionRadius);
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, influenceRadius);
 
             // 遍历所有被击中的对象
             foreach (Collider2D nearbyObject in colliders)
@@ -55,7 +55,7 @@ namespace zhb
         void OnDrawGizmos()
         {
             Gizmos.color = Color.red; // 设置 Gizmos 的颜色
-            Gizmos.DrawWireSphere(transform.position, explosionRadius); // 绘制爆炸范围的圆形
+            Gizmos.DrawWireSphere(transform.position, influenceRadius); // 绘制爆炸范围的圆形
         }
 
         private void OnTriggerEnter2D(Collider2D collision)
