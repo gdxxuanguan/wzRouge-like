@@ -55,5 +55,6 @@ namespace zhb
             bomb.GetComponent<Rigidbody2D>().velocity = throwSpeed * direction;
             
         }
+      
     }
 }

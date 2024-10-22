@@ -14,7 +14,7 @@ namespace zhb
         }
 
 
-        public void TakeDamage(int amount)
+        public void TakeDamage(float amount)
         {
             currentHealth -= amount;
             if (currentHealth <= 0)
