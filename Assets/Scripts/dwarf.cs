@@ -45,7 +45,11 @@ namespace zhb
         }
         private void attackPlayer()
         {
-            
+            if (playerTransform == null)
+            {
+                escAttackMode();
+                return;
+            }
             Vector2 direction = (playerTransform.position - transform.position).normalized;
             var bomb = Instantiate(bombPrefab, transform.position, transform.rotation);
             bomb.GetComponent<Rigidbody2D>().velocity = throwSpeed * direction;

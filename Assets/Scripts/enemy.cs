@@ -6,6 +6,7 @@ namespace zhb
 {
     [RequireComponent(typeof(Animator))]
     [RequireComponent(typeof(Rigidbody2D))]
+    [RequireComponent(typeof(Health))]
     public class enemy : MonoBehaviour
     {
         [SerializeField] protected float HP;
@@ -28,6 +29,7 @@ namespace zhb
         }
         protected void track()
         {
+            if (playerTransform == null) return;
             Vector2 oritation = (playerTransform.position-transform.position).normalized;
             float distance = Vector2.Distance(playerTransform.position, transform.position);
             if (distance < attackRange) //进入攻击范围,不需要移动

@@ -61,10 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Input_control.cs" />
+    <Compile Include="Assets\Scripts\bomb.cs" />
     <Compile Include="Assets\Scripts\dwarf.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\throwWeapon.cs" />
     <Compile Include="Assets\Scripts\bullet1.cs" />
-    <Compile Include="Assets\bomb.cs" />
     <Compile Include="Assets\Scripts\enemy.cs" />
   </ItemGroup>
   <ItemGroup>
