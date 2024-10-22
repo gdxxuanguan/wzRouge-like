@@ -15,6 +15,7 @@ namespace zhb
         private Animator animator;
         private Rigidbody2D rd;
         private float moveSpeed = 4f;
+        public static PlayerInputactions inputactions;
         //private float up;
         //private float down;
         //private float left;
@@ -22,18 +23,27 @@ namespace zhb
 
         public Vector2 Move { get => move; }
 
+        public void Awake()
+        {
+            inputactions = new PlayerInputactions();
+        }
+
+        public void OnEnable()
+        {
+            inputactions.Enable();
+        }
+        public void Disable()
+        {
+            inputactions.Disable();
+        }
         private void Start()
         {
             animator = GetComponent<Animator>();
             rd = GetComponent<Rigidbody2D>();
         }
-        private void Update()
+        private void FixedUpdate()
         {
-            
-        }
-        private void OnMove(InputValue value)
-        {
-            move = value.Get<Vector2>();
+            move = inputactions.Gameplay.Move.ReadValue<Vector2>();
             if (move.x == 0 && move.y == 0)
             {
                 animator.SetInteger("isMoving", 0);
@@ -46,8 +56,5 @@ namespace zhb
             }
             rd.velocity = moveSpeed * move;
         }
-
-        
-    }
-
+    };
 }
