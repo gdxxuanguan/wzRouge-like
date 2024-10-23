@@ -13,8 +13,10 @@ namespace zhb
         public float damage; // 伤害值
         public float animateTime; //多长时间后播放爆炸动画
         public float destroyTime;//多长时间后消失
+        private string frendTag;
 
         public float InfluenceRadius { get => influenceRadius; set => influenceRadius = value; }
+        public string FrendTag { get => frendTag; set => frendTag = value; }
 
         // Start is called before the first frame update
         void Start()
@@ -60,6 +62,10 @@ namespace zhb
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
+            if (collision.gameObject.tag==frendTag)
+            {
+                return; // 不爆炸
+            }
             explode();
             CancelInvoke("explode");
         }

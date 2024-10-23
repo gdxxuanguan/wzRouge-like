@@ -65,6 +65,7 @@ namespace zhb
 
             var bullet = Instantiate(bulletPrefab, bulletPosition, rotation);
             bullet.GetComponent<Rigidbody2D>().velocity = bulletSpeed * direction;
+            bullet.GetComponent<bullet>().FrendTag = transform.parent.tag;//给子弹打上是否友方单位的tag
             print("shoot!");
         }
     }

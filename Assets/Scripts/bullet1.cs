@@ -5,7 +5,6 @@ using UnityEngine;
 public class bullet1 : MonoBehaviour
 {
     //private Rigidbody2D rd;
-    // Start is called before the first frame update
     void Start()
     {
         //rd=GetComponent<Rigidbody2D>();

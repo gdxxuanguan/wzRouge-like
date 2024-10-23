@@ -44,15 +44,18 @@ namespace zhb
         private void FixedUpdate()
         {
             move = inputactions.Gameplay.Move.ReadValue<Vector2>();
-            if (move.x == 0 && move.y == 0)
+            if (animator.runtimeAnimatorController != null)
             {
-                animator.SetInteger("isMoving", 0);
-            }
-            else
-            {
-                animator.SetInteger("isMoving", 1);
-                animator.SetFloat("x", move.x);
-                animator.SetFloat("y", move.y);
+                if (move.x == 0 && move.y == 0)
+                {
+                    animator.SetInteger("isMoving", 0);
+                }
+                else
+                {
+                    animator.SetInteger("isMoving", 1);
+                    animator.SetFloat("x", move.x);
+                    animator.SetFloat("y", move.y);
+                }
             }
             rd.velocity = moveSpeed * move;
         }
