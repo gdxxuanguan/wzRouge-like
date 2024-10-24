@@ -8,13 +8,13 @@ namespace zhb
     {
         public float currentHealth;
         public float healthLimit = 100f;
-        private void Start()
+        protected void Start()
         {
             currentHealth = healthLimit;
         }
 
 
-        public void TakeDamage(float amount)
+        public virtual void TakeDamage(float amount)
         {
             currentHealth -= amount;
             if (currentHealth <= 0)
