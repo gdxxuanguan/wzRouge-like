@@ -9,7 +9,7 @@ namespace zhb
     {
         private Slider slider;
         // Start is called before the first frame update
-        void Start()
+        new void Start()
         {
             slider = GameObject.FindObjectOfType<Canvas>().GetComponentInChildren<Slider>();
             base.Start();

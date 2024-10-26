@@ -14,5 +14,10 @@ namespace zhb{
             frendTag=tag;
         }
 
+        public void returnBullet()
+        {
+            bulletFactory.Instance.returnBullet(gameObject);
+        }
+
     }
 }

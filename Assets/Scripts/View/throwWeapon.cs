@@ -8,12 +8,11 @@ namespace zhb
 {
     
     public class throwWeapon : Weapon
-    {
-        [SerializeField] private GameObject bulletPrefab;
-        
+    {      
         private float shootSpeed = 1f;
         private float bulletSpeed = 8f;
         private float lastShootTime = 0f;
+        public string bulletName;
         // Start is called before the first frame update
         void Start()
         {
@@ -32,14 +31,7 @@ namespace zhb
         { 
             return Time.time - lastShootTime >= shootSpeed;
         }
-        // private void FixedUpdate()
-        // {
-        //     if (CanShoot())
-        //     {
-        //         Shoot();
-        //         UpdateShootStatus();
-        //     }
-        // }
+       
         public override void Shoot(Vector2 mPosition)
         {
             if(CanShoot()){
@@ -57,7 +49,7 @@ namespace zhb
             Vector3 bulletPosition = transform.position; // 生成的位置 
             Quaternion rotation = Quaternion.Euler(0, 0, angle);// 计算旋转
 
-            var bullet = Instantiate(bulletPrefab, bulletPosition, rotation);
+            var bullet = initPrefab(bulletName,bulletPosition,rotation);
             bullet.GetComponent<Rigidbody2D>().velocity = bulletSpeed * direction;
             bullet.GetComponent<bullet>().frendTag = transform.parent.tag;//给子弹打上是否友方单位的tag
             // Debug.Log("shoot!");

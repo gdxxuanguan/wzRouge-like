@@ -16,14 +16,8 @@ namespace zhb
         void Start()
         {
             animator = GetComponent<Animator>();
-            Destroy(gameObject, destroyTime);
+            Invoke(nameof(returnBullet), destroyTime);
             Invoke(nameof(explode), animateTime);
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
         }
 
         void explode()
@@ -43,7 +37,7 @@ namespace zhb
                 {
                     // 对对象施加伤害
                     targetHealth.TakeDamage(damage);
-                    Debug.Log("damage");
+                    
                 }
                 playerController player=nearbyObject.GetComponent<playerController>();
                 if(player!=null){

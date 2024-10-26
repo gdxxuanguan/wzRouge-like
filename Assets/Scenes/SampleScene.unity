@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 657862682}
   - component: {fileID: 657862683}
   m_Layer: 0
-  m_Name: 00
+  m_Name: weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -572,7 +572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84c4f0d3ca1119046a1e7ca91e04441b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 9138008552820987445, guid: 7ddf7214fb4910e4aae5960b0d8a4fb3, type: 3}
+  bulletName: blackBom
 --- !u!1 &987193324
 GameObject:
   m_ObjectHideFlags: 0

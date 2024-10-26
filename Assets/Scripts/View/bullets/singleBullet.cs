@@ -7,7 +7,7 @@ namespace zhb{
     public class singleBullet : bullet
     {
         void Start(){
-            Invoke("destroy",destroyTime);
+            Invoke(nameof(returnBullet), destroyTime);
         }
 
         void destroy(){
