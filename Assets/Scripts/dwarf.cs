@@ -52,7 +52,7 @@ namespace zhb
             }
             Vector2 direction = (playerTransform.position - transform.position).normalized;
             var bomb = Instantiate(bombPrefab, transform.position, transform.rotation);
-            bomb.GetComponent<bullet>().FrendTag = transform.tag;//给子弹打上是否友方单位的tag
+            bomb.GetComponent<bullet>().frendTag = transform.tag;//给子弹打上是否友方单位的tag
             bomb.GetComponent<Rigidbody2D>().velocity = throwSpeed * direction;
             
         }

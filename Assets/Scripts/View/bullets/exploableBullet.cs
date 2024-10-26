@@ -5,20 +5,14 @@ using zhb;
 
 namespace zhb
 {
-    public class bullet : MonoBehaviour
+    public class  exploableBullet : bullet
     {
 
         private Animator animator;
         public float influenceRadius; // 爆炸半径
-        public float damage; // 伤害值
+        
         public float animateTime; //多长时间后播放爆炸动画
-        public float destroyTime;//多长时间后消失
-        private string frendTag;
-
-        public float InfluenceRadius { get => influenceRadius; set => influenceRadius = value; }
-        public string FrendTag { get => frendTag; set => frendTag = value; }
-
-        // Start is called before the first frame update
+        
         void Start()
         {
             animator = GetComponent<Animator>();
@@ -51,6 +45,11 @@ namespace zhb
                     targetHealth.TakeDamage(damage);
                     Debug.Log("damage");
                 }
+                playerController player=nearbyObject.GetComponent<playerController>();
+                if(player!=null){
+                    player.OnPlayerAttacked(damage);
+                }
+                
             }
         }
         // 用于可视化爆炸范围
