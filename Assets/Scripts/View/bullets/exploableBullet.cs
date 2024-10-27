@@ -42,8 +42,7 @@ namespace zhb
                 playerController player=nearbyObject.GetComponent<playerController>();
                 if(player!=null){
                     player.OnPlayerAttacked(damage);
-                }
-                
+                }         
             }
         }
         // 用于可视化爆炸范围

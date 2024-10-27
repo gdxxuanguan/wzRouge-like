@@ -12,9 +12,9 @@ namespace zhb
         public float CritRate { get; private set; } = 0f;
         public float Defense { get; private set; } = 0;
         public float CritDamageMultiplier { get; private set; } = 2f;
-        public float Speed { get; private set; } = 2f;
+        public float Speed { get; private set; } = 3f;
 
-        
+        public Vector2 weaponPosition = new Vector2(-0.241f, -0.129f);
 
         public void Attacked(float damage)
         {

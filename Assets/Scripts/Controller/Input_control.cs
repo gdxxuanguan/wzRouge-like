@@ -19,8 +19,6 @@ namespace zhb
         {
             inputactions = new PlayerInputactions();
             player=GetComponent<playerController>();
-            // if(inputactions==null)Debug.Log("inputaction");
-            // if(player==null)Debug.Log("playercontroller");
         }
 
         public void OnEnable()
@@ -44,6 +42,10 @@ namespace zhb
             // Debug.Log("shoot");
             Vector3 mPosition=Input.mousePosition;
             player.shoot(mPosition);
+        }
+        private void OnPickup()
+        {
+            player.PickupWeapon();
         }
     };
 }

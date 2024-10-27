@@ -31,6 +31,8 @@ namespace zhb
         { 
             return Time.time - lastShootTime >= shootSpeed;
         }
+
+
        
         public override void Shoot(Vector2 mPosition)
         {

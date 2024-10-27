@@ -36,5 +36,7 @@ namespace zhb
         {
             slider.value = val;
         }
+
+       
     }
 }

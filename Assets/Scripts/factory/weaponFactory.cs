@@ -28,9 +28,8 @@ namespace zhb
         public GameObject GetWeapon(string name,Vector2 position, Quaternion rotation)
         {
             GameObject weapon = Resources.Load<GameObject>(weaponPath+name);
-            GameObject.Instantiate(weapon);
-            weapon.transform.position = position;
-            weapon.transform.rotation = rotation;
+            weapon=GameObject.Instantiate(weapon);
+            weapon.transform.SetPositionAndRotation(position, rotation);
             return weapon;
         }
     }
