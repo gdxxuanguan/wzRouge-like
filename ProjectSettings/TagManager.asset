@@ -46,9 +46,12 @@ TagManager:
   - name: building
     uniqueID: 2565269631
     locked: 0
-  - name: player
+  - name: enemy
     uniqueID: 2762972205
     locked: 0
-  - name: ui
+  - name: player
     uniqueID: 1755394075
+    locked: 0
+  - name: ui
+    uniqueID: 1919181235
     locked: 0

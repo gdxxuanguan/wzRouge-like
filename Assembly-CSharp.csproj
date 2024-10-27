@@ -60,9 +60,13 @@
     <Analyzer Include="D:\unity\2022.3.43f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Model\simpleEnemyModel.cs" />
     <Compile Include="Assets\Scripts\dwarf.cs" />
+    <Compile Include="Assets\Scripts\factory\weaponFactory.cs" />
     <Compile Include="Assets\Scripts\character data\Health.cs" />
     <Compile Include="Assets\Scripts\character data\playerHealth.cs" />
+    <Compile Include="Assets\Scripts\View\simpleEnemyView.cs" />
+    <Compile Include="Assets\Scripts\factory\enemyFactory.cs" />
     <Compile Include="Assets\Scripts\abstract\bullet.cs" />
     <Compile Include="Assets\Scripts\abstract\Weapon.cs" />
     <Compile Include="Assets\Scripts\factory\bulletFactory.cs" />
@@ -70,11 +74,13 @@
     <Compile Include="Assets\Scripts\Controller\Input_control.cs" />
     <Compile Include="Assets\Scripts\View\throwWeapon.cs" />
     <Compile Include="Assets\Scripts\View\bullets\exploableBullet.cs" />
+    <Compile Include="Assets\Scripts\Controller\simpleEnemyController.cs" />
     <Compile Include="Assets\Scripts\Controller\playerController.cs" />
     <Compile Include="Assets\Settings\PlayerInputactions.cs" />
     <Compile Include="Assets\Scripts\View\bullets\singleBullet.cs" />
     <Compile Include="Assets\Scripts\enemy.cs" />
     <Compile Include="Assets\Scripts\Model\playerModel.cs" />
+    <Compile Include="Assets\Scripts\Model\enemyModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -44,10 +44,10 @@ namespace zhb
         private Dictionary<string, List<GameObject>> bulletPools;
         public int poolSize = 20; // 每种子弹的初始对象池大小
 
-        void Awake()
+        void Awake()//初始化工厂和对象池
         {
+            var bulletPoolParent = new GameObject("bulletPool");
             bulletTypes = new BulletType[types.Length];
-            Debug.Log("awake");
             for(int i=0;i<types.Length;i++){
                 bulletTypes[i].typeName=types[i];
                 bulletTypes[i].bulletPrefab=Resources.Load<GameObject>(prefabPath+types[i]);//从prefab文件夹加载预制件  
@@ -63,6 +63,7 @@ namespace zhb
                 for (int i = 0; i < poolSize; i++)
                 {
                     GameObject bullet = GameObject.Instantiate(bulletType.bulletPrefab);
+                    bullet.transform.parent = bulletPoolParent.transform;
                     bullet.SetActive(false);
                     pool.Add(bullet);
                 }

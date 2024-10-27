@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -814237803653668012}
   m_Layer: 0
   m_Name: Dwarf_0
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,8 +31,8 @@ Transform:
   m_GameObject: {fileID: 7131138628012745273}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.055, y: 2.31, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalPosition: {x: 7.6956, y: 2.909, z: 0}
+  m_LocalScale: {x: 1.083, y: 1.083, z: 1.083}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -136,7 +136,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &7317913581042879647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,16 +200,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.05870696}
+  m_Offset: {x: -0.0068671107, y: -0.22580694}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.12, y: 0.2}
+    oldSize: {x: 0.375, y: 0.625}
     newSize: {x: 0.12, y: 0.2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.12, y: 0.082586095}
+  m_Size: {x: 0.3077013, y: 0.20619377}
   m_EdgeRadius: 0

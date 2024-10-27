@@ -13,7 +13,7 @@ namespace zhb
         
         public float animateTime; //多长时间后播放爆炸动画
         
-        void Start()
+        void OnEnable()
         {
             animator = GetComponent<Animator>();
             Invoke(nameof(returnBullet), destroyTime);
