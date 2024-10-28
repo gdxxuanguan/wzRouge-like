@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace zhb{
     public class singleBullet : bullet
     {
-        void Start(){
+        void OnEnable()
+        {
             Invoke(nameof(returnBullet), destroyTime);
         }
 
-        void destroy(){
-            Destroy(gameObject);
-        }
+      
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.gameObject.tag==frendTag)
+            if (collision.gameObject.tag==frendTag || collision.gameObject.tag == "weapon")
             {
                 return; //´©¹ý¶ÔÏó
             }
@@ -25,7 +25,9 @@ namespace zhb{
             }else{
                 // collision.GetComponent<playerController>().OnPlayerAttacked(damage);
             }
-            destroy();
+            effectFactory.Instance.Geteffect("boomEffect", gameObject.transform.position, Quaternion.identity);
+            CancelInvoke(nameof(returnBullet));
+            returnBullet();
         }
     }
 }

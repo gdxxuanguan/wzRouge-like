@@ -183,7 +183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935c3fbd7358a4e4ab3dda513a87ad09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  influenceRadius: 0.7
   damage: 20
-  animateTime: 1
+  frendTag: 
   destroyTime: 2
+  influenceRadius: 0.7
+  animateTime: 1

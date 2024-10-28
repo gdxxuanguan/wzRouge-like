@@ -30,6 +30,7 @@ namespace zhb
             GameObject weapon = Resources.Load<GameObject>(weaponPath+name);
             weapon=GameObject.Instantiate(weapon);
             weapon.transform.SetPositionAndRotation(position, rotation);
+            //weapon.GetComponent<Weapon>()
             return weapon;
         }
     }

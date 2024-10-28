@@ -49,9 +49,14 @@ namespace zhb
             string name = null;
             Collider2D[] objs=new Collider2D[10];
             int len = col.OverlapCollider(new ContactFilter2D().NoFilter(), objs);
-            name = objs[0].name;
-            if (name == null) return;
-            Destroy(objs[0].gameObject);
+            int i = 0;
+            for (; i < len; i++)
+            {
+                if (objs[i].CompareTag("weapon")) break;
+            }
+            if (i==len) return;
+            name = objs[i].name;
+            Destroy(objs[i].gameObject);
             GameObject _weapon = weaponFactory.Instance.GetWeapon(name, model.weaponPosition+(Vector2)gameObject.transform.position, Quaternion.identity);
             _weapon.transform.parent = gameObject.transform;
             weapon = GetComponentInChildren<Weapon>();

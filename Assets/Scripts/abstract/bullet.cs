@@ -17,8 +17,8 @@ namespace zhb{
         public void returnBullet()
         {
             bulletFactory.Instance.returnBullet(gameObject);
-            //Debug.Log("return");
         }
+        
 
     }
 }

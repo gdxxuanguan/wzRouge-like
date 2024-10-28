@@ -54,7 +54,7 @@ namespace zhb
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.gameObject.tag==frendTag)
+            if (collision.gameObject.tag==frendTag||collision.gameObject.tag=="weapon")
             {
                 return; // ²»±¬Õ¨
             }

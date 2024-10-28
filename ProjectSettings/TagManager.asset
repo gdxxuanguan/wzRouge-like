@@ -52,6 +52,9 @@ TagManager:
   - name: player
     uniqueID: 1755394075
     locked: 0
-  - name: ui
+  - name: effect
     uniqueID: 1919181235
+    locked: 0
+  - name: ui
+    uniqueID: 1050475205
     locked: 0
