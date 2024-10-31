@@ -26,7 +26,7 @@ public abstract class Weapon : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("enter");
+        //Debug.Log("enter");
         // 检查是否是玩家进入
         if (other.CompareTag("Player"))
         {

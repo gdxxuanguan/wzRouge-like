@@ -14,7 +14,7 @@ public class simpleEnemyController : MonoBehaviour
     void Start()
     {
         model=new simpleEnemyModel();
-        view=GetComponent<simpleEnemyView>();
+        view = GetComponent<simpleEnemyView>();
         player = GameObject.FindWithTag("Player").transform;
     }
 

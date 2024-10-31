@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace zhb
 {
-    public class effectFactory : MonoBehaviour
+    public class effectFactory
     {
         private string effectPath = "prefab/effect/";
         private static effectFactory _instance;
@@ -29,7 +29,7 @@ namespace zhb
             GameObject effect = Resources.Load<GameObject>(effectPath + name);
             effect = GameObject.Instantiate(effect);
             effect.transform.SetPositionAndRotation(position, rotation);
-            Destroy(effect, 0.5f);
+            MonoBehaviour.Destroy(effect, 0.5f);
             return effect;
         }
     }

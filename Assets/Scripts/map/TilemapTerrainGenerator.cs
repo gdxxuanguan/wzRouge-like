@@ -4,9 +4,9 @@ using UnityEngine.Tilemaps;
 public class TilemapTerrainGenerator : MonoBehaviour
 {
     public Tilemap tilemap;
-    public Tile groundTile;
+    public RuleTile groundTile;
     public int width = 100;
-    public int maxHeight = 10;
+    public int maxHeight = 100;
     public float scale = 10f;
 
     void Start()
