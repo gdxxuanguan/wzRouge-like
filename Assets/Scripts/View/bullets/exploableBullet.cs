@@ -41,7 +41,7 @@ namespace zhb
                 }
                 playerController player=nearbyObject.GetComponent<playerController>();
                 if(player!=null){
-                    player.OnPlayerAttacked(damage);
+                    player.TakeDamage(damage);
                 }         
             }
         }

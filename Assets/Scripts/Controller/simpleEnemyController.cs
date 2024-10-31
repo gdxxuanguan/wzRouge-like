@@ -30,7 +30,7 @@ public class simpleEnemyController : MonoBehaviour
         view.Move(direction, model.Speed);
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
          model.Attacked(damage);
 
@@ -50,7 +50,7 @@ public class simpleEnemyController : MonoBehaviour
                 playerController player = nearbyObject.GetComponent<playerController>();
                 if (player != null)
                 {
-                    player.OnPlayerAttacked(1.0f*model.AttackPower);
+                    player.TakeDamage(1.0f*model.AttackPower);
                 }
 
             }

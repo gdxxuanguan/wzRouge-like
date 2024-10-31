@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -7,6 +8,8 @@ public class roomWalkerGenerator : MonoBehaviour
     public Tilemap tilemap;             // 用于显示瓦片的 Tilemap
     public TileBase floorTile;          // 地板瓦片
     public TileBase wallTile;           // 墙壁瓦片
+    public Tile placeTile;  //用于放置石块的地板
+    public GameObject stone;
 
     public int width;              // 地牢宽度
     public int height;             // 地牢高度
@@ -17,11 +20,31 @@ public class roomWalkerGenerator : MonoBehaviour
     private List<RectInt> rooms;        // 房间的矩形列表
     private System.Random random;
 
+    
+
     void Start()
     {
         random = new System.Random();
         rooms = new List<RectInt>();
         GenerateDungeon();
+        GenerateStones();
+    }
+
+    private void GenerateStones()
+    {
+        GameObject stonePool = new GameObject("stonePool");
+        for (int i = 0; i < width; i++)
+        {
+            for (int j = 0; j < height; j++)
+            {
+                Vector3Int pos = new Vector3Int(i, j, 0);
+                if (tilemap.GetSprite(pos)== placeTile.sprite)
+                {
+                    var obj=GameObject.Instantiate(stone,new Vector2(i+0.5f,j+0.5f), Quaternion.identity);
+                    obj.transform.parent=stonePool.transform;
+                }
+            }
+        }
     }
 
     void GenerateDungeon()
@@ -98,7 +121,7 @@ public class roomWalkerGenerator : MonoBehaviour
 
     void CreateHorizontalCorridor(int xStart, int xEnd, int y)
     {
-        for (int x = Mathf.Min(xStart, xEnd); x <= Mathf.Max(xStart, xEnd)+1; x++)
+        for (int x = Mathf.Min(xStart, xEnd)-1; x <= Mathf.Max(xStart, xEnd)+1; x++)
         {
             tilemap.SetTile(new Vector3Int(x, y, 0), floorTile);
             tilemap.SetTile(new Vector3Int(x, y-1, 0), floorTile);
@@ -108,7 +131,7 @@ public class roomWalkerGenerator : MonoBehaviour
 
     void CreateVerticalCorridor(int yStart, int yEnd, int x)
     {
-        for (int y = Mathf.Min(yStart, yEnd); y <= Mathf.Max(yStart, yEnd)+1; y++)
+        for (int y = Mathf.Min(yStart, yEnd)-1; y <= Mathf.Max(yStart, yEnd)+1; y++)
         {
             tilemap.SetTile(new Vector3Int(x, y, 0), floorTile);
             tilemap.SetTile(new Vector3Int(x+1, y, 0), floorTile);

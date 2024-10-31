@@ -2,24 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class stoneModel
+namespace zhb
 {
-    public float Health;
-    public List<string> dropsName;
-
-    public  stoneModel(float health,List<string> drops)
+    public class stoneModel
     {
-        Health = health;
-        dropsName = drops;
-    }
+        public float Health;
+        public List<string> dropsName;
 
-    public void Attacked(float damage)
-    {
-        Health -= damage;
-        if (Health < 0)
+        public stoneModel(float health, List<string> drops)
         {
-            Health = 0;
+            Health = health;
+            dropsName = drops;
         }
-    }
 
+        public void Attacked(float damage)
+        {
+            Health -= damage;
+            if (Health < 0)
+            {
+                Health = 0;
+            }
+        }
+
+    }
 }

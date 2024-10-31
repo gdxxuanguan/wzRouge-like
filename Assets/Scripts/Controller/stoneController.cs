@@ -2,26 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class stoneController : MonoBehaviour
+namespace zhb
 {
-    public float Health;
-    public List<string> dropsName;
-    private stoneView view;
-    private stoneModel model;
-    void Start()
+    public class stoneController : MonoBehaviour
     {
-        model = new stoneModel(Health,dropsName);
-        view = GetComponent<stoneView>();
+        public float Health;
+        public List<string> dropsName;
+        private stoneView view;
+        private stoneModel model;
 
-
-    }
-
-    public void TakeDamage(float damage)
-    {
-        model.Attacked(damage);
-        if (model.Health == 0)
+        void Start()
         {
-            view.changeState();
+            model = new stoneModel(Health, dropsName);
+            view = GetComponent<stoneView>();
+        }
+
+        public void TakeDamage(float damage)
+        {
+            model.Attacked(damage);
+            if (model.Health == 0)
+            {
+                view.changeState();
+                //爆装备业务逻辑
+                drops();
+                Destroy(gameObject, 0.5f);
+            }
+        }
+
+        private void drops()
+        {
 
         }
     }

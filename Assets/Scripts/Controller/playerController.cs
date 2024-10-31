@@ -23,7 +23,7 @@ namespace zhb
             view.Move(move,model.Speed);
         }
 
-        public void OnPlayerAttacked(float damage)
+        public void TakeDamage(float damage)
         {
             model.Attacked(damage);
             view.UpdateHpView(model.getHp());
