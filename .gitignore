@@ -4,5 +4,6 @@
 #
 /[Ll]ibrary/
 /[Ll]ogs/
-Logs/
-Temp/
+/Logs/
+/Temp/
+/.vs/
