@@ -4,11 +4,12 @@ using UnityEngine;
 
 namespace zhb
 {
-    public class Item: MonoBehaviour
+    [CreateAssetMenu(menuName ="Item")]
+    public class Item: ScriptableObject
     {
-        private string itemName;
+        [SerializeField] private string itemName;
         private int quantity;
-        private Sprite icon;
+        [SerializeField] private Sprite icon;
         private static string itemPath="item";
 
         public string ItenName { get => itemName; set => itemName = value; }

@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "E:\\unityprojects\\wzRouge-like\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|e:\\unityprojects\\wzrouge-like\\assets\\scripts\\map\\roomwalkergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\abstract\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abstract\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|e:\\unityprojects\\wzrouge-like\\assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|e:\\unityprojects\\wzrouge-like\\assets\\scripts\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\abstract\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abstract\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\view\\uiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\view\\uiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\unitytool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unitytool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\map\\roomwalkergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map\\roomwalkergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\factory\\bulletfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\bulletfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +75,12 @@
       "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\weaponfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\abstract\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abstract\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\model\\simpleenemymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\simpleenemymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\view\\throwweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\view\\throwweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\factory\\bulletfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\bulletfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\factory\\effectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,16 +91,8 @@
       "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\input_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\unitytool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unitytool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\model\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\view\\uiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\view\\uiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7129E389-ACBC-4E27-A5A8-284789407B88}|Assembly-CSharp.csproj|E:\\unityprojects\\wzRouge-like\\assets\\scripts\\model\\enemymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,20 +142,263 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "roomWalkerGenerator.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\map\\roomWalkerGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\map\\roomWalkerGenerator.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\map\\roomWalkerGenerator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\map\\roomWalkerGenerator.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwCgAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InventoryManager.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InventoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:14:32.259Z",
+              "WhenOpened": "2024-11-12T11:22:42.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "InventoryUI.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\InventoryUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InventoryUI.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\InventoryUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InventoryUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:21:26.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\abstract\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\abstract\\Item.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\abstract\\Item.cs",
+              "RelativeToolTip": "Assets\\Scripts\\abstract\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:56:15.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemSlot.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\ItemSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSlot.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\ItemSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:40:25.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "playerModel.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\playerModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\playerModel.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\playerModel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\playerModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wBkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T06:16:12.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "playerController.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\playerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\playerController.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\playerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controller\\playerController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T05:57:19.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "throwWeapon.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\throwWeapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\throwWeapon.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\throwWeapon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\throwWeapon.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:09:25.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "weaponFactory.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\factory\\weaponFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\factory\\weaponFactory.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\factory\\weaponFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\factory\\weaponFactory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvyAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T02:39:56.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "bulletFactory.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\factory\\bulletFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\factory\\bulletFactory.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\factory\\bulletFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\factory\\bulletFactory.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwEEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:43:12.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "singleBullet.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\bullets\\singleBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\bullets\\singleBullet.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\bullets\\singleBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\bullets\\singleBullet.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:41:03.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "exploableBullet.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\bullets\\exploableBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\bullets\\exploableBullet.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\bullets\\exploableBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\bullets\\exploableBullet.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:31:50.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\abstract\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\abstract\\Weapon.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\abstract\\Weapon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\abstract\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T09:50:12.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bullet.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\abstract\\bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\abstract\\bullet.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\abstract\\bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\abstract\\bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:35:34.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "simpleEnemyController.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\simpleEnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\simpleEnemyController.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\simpleEnemyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controller\\simpleEnemyController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwDEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T06:28:21.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "enemyModel.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\enemyModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\enemyModel.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\enemyModel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\enemyModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T06:15:35.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnityTool.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\UnityTool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UnityTool.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\UnityTool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UnityTool.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T11:57:00.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Input_control.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\Input_control.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\Input_control.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\Input_control.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controller\\Input_control.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAxwC8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T08:12:13.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UIView.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\UIView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\UIView.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\UIView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\UIView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T11:47:45.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "simpleEnemyModel.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\simpleEnemyModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\simpleEnemyModel.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\simpleEnemyModel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\simpleEnemyModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T06:18:25.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "stoneController.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\stoneController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\stoneController.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\stoneController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controller\\stoneController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:41:09.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "stoneModel.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\stoneModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\stoneModel.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\stoneModel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\stoneModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T09:24:17.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "stoneView.cs",
               "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\stoneView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\View\\stoneView.cs",
@@ -152,198 +411,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "stoneModel.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\stoneModel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\stoneModel.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\stoneModel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\stoneModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "Title": "roomWalkerGenerator.cs",
+              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\map\\roomWalkerGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\map\\roomWalkerGenerator.cs",
+              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\map\\roomWalkerGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\map\\roomWalkerGenerator.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:24:17.582Z"
+              "WhenOpened": "2024-10-31T11:14:32.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "stoneController.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\stoneController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\stoneController.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\stoneController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controller\\stoneController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T08:41:09.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "simpleEnemyModel.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\simpleEnemyModel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\simpleEnemyModel.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\simpleEnemyModel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\simpleEnemyModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T06:18:25.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "playerModel.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\playerModel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\playerModel.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\playerModel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\playerModel.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA0wBkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T06:16:12.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "playerController.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\playerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\playerController.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\playerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controller\\playerController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T05:57:19.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "throwWeapon.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\throwWeapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\throwWeapon.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\throwWeapon.cs",
-              "RelativeToolTip": "Assets\\Scripts\\View\\throwWeapon.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T03:09:25.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "weaponFactory.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\factory\\weaponFactory.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\factory\\weaponFactory.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\factory\\weaponFactory.cs",
-              "RelativeToolTip": "Assets\\Scripts\\factory\\weaponFactory.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvyAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T02:39:56.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "bulletFactory.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\factory\\bulletFactory.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\factory\\bulletFactory.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\factory\\bulletFactory.cs",
-              "RelativeToolTip": "Assets\\Scripts\\factory\\bulletFactory.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAQwFAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:43:12.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "singleBullet.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\bullets\\singleBullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\bullets\\singleBullet.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\bullets\\singleBullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\View\\bullets\\singleBullet.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBsAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T10:41:03.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "exploableBullet.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\bullets\\exploableBullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\bullets\\exploableBullet.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\bullets\\exploableBullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\View\\bullets\\exploableBullet.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvxIAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T10:31:50.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\abstract\\Weapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\abstract\\Weapon.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\abstract\\Weapon.cs",
-              "RelativeToolTip": "Assets\\Scripts\\abstract\\Weapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T09:50:12.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "bullet.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\abstract\\bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\abstract\\bullet.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\abstract\\bullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\abstract\\bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T10:35:34.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "simpleEnemyController.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\simpleEnemyController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\simpleEnemyController.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\simpleEnemyController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controller\\simpleEnemyController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAIwDEAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T06:28:21.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "enemyModel.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\enemyModel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\enemyModel.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Model\\enemyModel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\enemyModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T06:15:35.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UnityTool.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\UnityTool.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UnityTool.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\UnityTool.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UnityTool.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T11:57:00.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Input_control.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\Input_control.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\Input_control.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\Controller\\Input_control.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controller\\Input_control.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAxwC8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T08:12:13.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "effectFactory.cs",
               "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\factory\\effectFactory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\factory\\effectFactory.cs",
@@ -355,19 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UIView.cs",
-              "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\UIView.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\UIView.cs",
-              "ToolTip": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\UIView.cs",
-              "RelativeToolTip": "Assets\\Scripts\\View\\UIView.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T11:47:45.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "enemyFactory.cs",
               "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\factory\\enemyFactory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\factory\\enemyFactory.cs",
@@ -379,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "playerView.cs",
               "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\playerView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\View\\playerView.cs",
@@ -391,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "simpleEnemyView.cs",
               "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\View\\simpleEnemyView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\View\\simpleEnemyView.cs",
@@ -403,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Health.cs",
               "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\character data\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\character data\\Health.cs",
@@ -415,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "playerHealth.cs",
               "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\character data\\playerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\character data\\playerHealth.cs",
@@ -427,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "enemy.cs",
               "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\enemy.cs",
@@ -439,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "dwarf.cs",
               "DocumentMoniker": "E:\\unityprojects\\wzRouge-like\\Assets\\Scripts\\dwarf.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\dwarf.cs",
